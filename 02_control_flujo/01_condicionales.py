@@ -30,3 +30,12 @@ print("Fin del programa.")
 # 5. (Opcional) Si la nota es menor a 0 o mayor a 100, imprime "Nota inválida".
 
 # Escribe tu código aquí abajo:
+
+nota = int(input("ingrese su nota del 0 al 100: "))
+
+if nota >= 90:
+    print("Excelente")
+elif nota >=70 and 90 > nota:
+    print("Aprobado")
+else: 
+    print("Reprobado")
